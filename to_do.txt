@@ -2,3 +2,13 @@
 - Separate strings after ")" into second column
 - Do this for all *.csv
 - Concatonate all *.csv
+COMPLETE
+--------------------------------------------------------------------------------
+
+02JUNE2022
+- Select random word
+- Strip it to first letter
+- Search .csv of that letter for the word
+- Print out the word and definition
+- Output to .txt
+- Scheduler it for every hour
