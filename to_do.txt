@@ -1,0 +1,4 @@
+31MAY2022
+- Separate strings after ")" into second column
+- Do this for all *.csv
+- Concatonate all *.csv
