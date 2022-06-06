@@ -9,6 +9,12 @@ COMPLETE
 - Select random word
 - Strip it to first letter
 - Search .csv of that letter for the word
+COMPLETE
+- check that first 20 characters contain string r and if don't filter out
 - Print out the word and definition
 - Output to .txt
 - Scheduler it for every hour
+COMPLETE
+
+06JUNE2022
+Script complete and task scheduler set hourly
