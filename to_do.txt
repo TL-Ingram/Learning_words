@@ -21,10 +21,8 @@ Script complete and task scheduler set hourly
 
 07JUNE2022
 - Some words aren't giving definition: 
-  - Change sallies to sally
   - Fain prints out many other words that also start with "fain", e.g fainted
-  - Vignettes didn't work - not sure why
-  - Succour didn't work - not sure why
-  - "Sotto Voce" didn't work
-  - Inured -> Inure
-  - "Irrevocably" did not work
+  
+14JUNE2022
+- Fixed many broken words (some by adding the definitions manually to the dict!)
+- Fain still to be fixed from 07JUNE
