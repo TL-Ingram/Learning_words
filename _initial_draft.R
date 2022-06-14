@@ -6,8 +6,8 @@ suppressPackageStartupMessages({
   library(lintr)
   library(styler)
 })
-lint("_initial_draft.R")
-style_file("token_generation.R")
+# lint("_initial_draft.R")
+# style_file("token_generation.R")
 
 # Data load --------------------------------------------------------------------
 data <- read_csv("words_from_apple_notes.csv")
@@ -20,8 +20,17 @@ process_one <- data %>%
   as_tibble() %>%
   slice(-(c(137, 138, 152)))
 
+# Altering tense of words that have had output errors --------------------------
+process_two <- process_one %>%
+  rename("head" = 1) %>%
+  mutate(head = replace(head, head == "sallies", "sally")) %>%
+  mutate(head = replace(head, head == "vignettes", "vignette")) %>%
+  mutate(head = replace(head, head == "inured", "inure")) %>%
+  mutate(head = replace(head, head == "irrevocably", "irrevocable")) %>%
+  mutate(head = replace(head, head == "deign", "deigned"))
+
 # Word selection ---------------------------------------------------------------
-random_word <- sample_n(process_one, 1) %>%
+random_word <- sample_n(process_two, 1) %>%
   as.character()
 
 # 'random word' processing to search appropriate dictionary --------------------
