@@ -18,7 +18,8 @@ process_one <- data %>%
   lapply(function(y) gsub("[[:punct:]]", "", y)) %>%
   lapply(function(z) tolower(z)) %>%
   as_tibble() %>%
-  slice(-(c(137, 138, 152)))
+  slice(-(c(137, 138, 152))) %>%
+  distinct()
 
 # Altering tense of words that have had output errors --------------------------
 process_two <- process_one %>%
@@ -27,7 +28,10 @@ process_two <- process_one %>%
   mutate(head = replace(head, head == "vignettes", "vignette")) %>%
   mutate(head = replace(head, head == "inured", "inure")) %>%
   mutate(head = replace(head, head == "irrevocably", "irrevocable")) %>%
-  mutate(head = replace(head, head == "deign", "deigned"))
+  mutate(head = replace(head, head == "deign", "deigned")) %>%
+  mutate(head = replace(head, head == "yokels", "yokel")) %>%
+  mutate(head = replace(head, head == "endued", "endue")) %>%
+  mutate(head = replace(head, head == "appertaining", "appertain"))
 
 # Word selection ---------------------------------------------------------------
 random_word <- sample_n(process_two, 1) %>%

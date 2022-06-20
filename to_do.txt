@@ -26,3 +26,12 @@ Script complete and task scheduler set hourly
 14JUNE2022
 - Fixed many broken words (some by adding the definitions manually to the dict!)
 - Fain still to be fixed from 07JUNE
+- Yokels not working
+- Endued didn't work
+- "Sotto Voce" didn't work
+- Appertaining
+COMPLETE
+
+20JUNE2022
+- Clean for distinct
+COMPLETE

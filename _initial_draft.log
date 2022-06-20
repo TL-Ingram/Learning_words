@@ -1685,3 +1685,509 @@ chr (1): I () I, the ninth letter of the English alphabet, takes its form fr...
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 [1] 0
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 16735 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): C () C is the third letter of the English alphabet. It is from the ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 10805 Columns: 1
+Error in nchar(x, "width") : invalid multibyte string, element 1
+Calls: %>% ... summary -> summary.col_spec -> vapply -> FUN -> <Anonymous>
+Execution halted
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 7418 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): F () F is the sixth letter of the English alphabet, and a nonvocal ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 7782 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): I () I, the ninth letter of the English alphabet, takes its form fr...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 8909 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): R () R, the eighteenth letter of the English alphabet, is a vocal c...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 485 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Y () Y, the twenty-fifth letter of the English alphabet, at the beg...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 7418 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): F () F is the sixth letter of the English alphabet, and a nonvocal ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The network path was not found
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 15428 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): P () the sixteenth letter of the English alphabet, is a nonvocal co...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 7782 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): I () I, the ninth letter of the English alphabet, takes its form fr...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 9876 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): B () is the second letter of the English alphabet. (See Guide to Pr...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 9876 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): B () is the second letter of the English alphabet. (See Guide to Pr...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 4460 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): O () O, the fifteenth letter of the English alphabet, derives its f...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 11615 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): A () The first letter of the English and of many other alphabets. T...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 21505 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): S () the nineteenth letter of the English alphabet, is a consonant,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 2795 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): V () V, the twenty-second letter of the English alphabet, is a voca...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Warning message:
+In normalizePath(path.expand(path), winslash, mustWork) :
+  path[1]="U:": The system cannot find the path specified
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 7519 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): E () The fifth letter of the English alphabet.
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 4460 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): O () O, the fifteenth letter of the English alphabet, derives its f...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 7782 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): I () I, the ninth letter of the English alphabet, takes its form fr...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 21506 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): S () the nineteenth letter of the English alphabet, is a consonant,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 15428 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): P () the sixteenth letter of the English alphabet, is a nonvocal co...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 21506 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): S () the nineteenth letter of the English alphabet, is a consonant,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 11615 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): A () The first letter of the English and of many other alphabets. T...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 15428 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): P () the sixteenth letter of the English alphabet, is a nonvocal co...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 9284 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): T () the twentieth letter of the English alphabet, is a nonvocal co...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] 0
