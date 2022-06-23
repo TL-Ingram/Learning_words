@@ -35,3 +35,7 @@ COMPLETE
 20JUNE2022
 - Clean for distinct
 COMPLETE
+
+22JUNE2022
+- Add a score of how regularly words are randomly coming up, in a separate output
+- Vociferating didn't work, change to vociferate
