@@ -3602,3 +3602,4 @@ Backtrace:
   9.   └─dplyr::group_by_prepare(.data, ..., .add = .add, caller_env = caller_env())
  10.     └─rlang::abort(bullets, call = error_call)
 Execution halted
+[1] 0

@@ -7,10 +7,10 @@ suppressPackageStartupMessages({
   library(styler)
 })
 # lint("_initial_draft.R")
-style_file("_initial_draft.R")
+# style_file("_initial_draft.R")
 
 # Data load --------------------------------------------------------------------
-data <- read_csv("words_from_apple_notes.csv")
+data <- read_csv("words_from_apple_notes.csv", show_col_types = F)
 
 # Initial processing -----------------------------------------------------------
 process_one <- data %>%
@@ -19,24 +19,18 @@ process_one <- data %>%
   lapply(function(z) tolower(z)) %>%
   as_tibble(.) %>%
   slice(., -(c(137, 138, 152))) %>%
-  distinct(.)
+  distinct(.) %>%
+  rename(., "original" = 1)
 
-# Altering tense of words that have had output errors --------------------------
-process_two <- process_one %>%
-  rename("head" = 1) %>%
-  mutate(.,
-    head = replace(head, head == "sallies", "sally"),
-    head = replace(head, head == "vignettes", "vignette"),
-    head = replace(head, head == "inured", "inure"),
-    head = replace(head, head == "irrevocably", "irrevocable"),
-    head = replace(head, head == "deign", "deigned"),
-    head = replace(head, head == "yokels", "yokel"),
-    head = replace(head, head == "endued", "endue"),
-    head = replace(head, head == "appertaining", "appertain")
-  )
+# Adjust spelling of words that error using adj_word.csv -----------------------
+adj_word  <- read_csv(here("misspelling", "adj_word.csv"), 
+                      show_col_types = F) %>%
+  right_join(., process_one, by = "original") %>%
+  mutate(., original = coalesce(correct, original)) %>%
+  select(., -correct)
 
 # Word selection ---------------------------------------------------------------
-random_word <- sample_n(process_two, 1) %>%
+random_word <- sample_n(adj_word, 1) %>%
   as.character(.)
 
 # 'random word' processing to search appropriate dictionary --------------------

@@ -8,3 +8,10 @@ process_one <- data %>%
      slice(-(c(137, 138, 152))) %>%
      group_by_at(c(1)) %>%
      filter(n() > 1)
+
+# Test if can use external .csv to rename misspelled words
+adj_word  <- read_csv(here("misspelling", "adj_word.csv"), 
+                      show_col_types = F) %>%
+        right_join(process_one, by = "original") %>%
+        mutate(., original = coalesce(correct, original)) %>%
+        select(-correct)
