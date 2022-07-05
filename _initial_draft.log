@@ -3603,3 +3603,4 @@ Backtrace:
  10.     └─rlang::abort(bullets, call = error_call)
 Execution halted
 [1] 0
+[1] 0
