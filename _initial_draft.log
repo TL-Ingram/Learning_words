@@ -3547,3 +3547,58 @@ chr (1): P () the sixteenth letter of the English alphabet, is a nonvocal co...
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 [1] 0
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 21505 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): S () the nineteenth letter of the English alphabet, is a consonant,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+C:\R_projects\dict\_initial_draft.R:21:13: style: Place a space before left parenthesis, except in a function call.
+  slice(., -(c(137, 138, 152))) %>%
+            ^
+Styling  1  files:
+ _initial_draft.R ✔ 
+────────────────────────────────────────
+Status	Count	Legend 
+✔ 	1	File unchanged.
+ℹ 	0	File changed.
+✖ 	0	Styling threw an error.
+────────────────────────────────────────
+Rows: 200 Columns: 1
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Animus - feeling of ill will or hostility
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 0 Columns: 2
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): word, count
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Error in `group_by()`:
+! Must group by variables found in `.data`.
+✖ Column `word` is not found.
+Backtrace:
+     ▆
+  1. ├─... %>% write_csv(here("freq", "concatonated.csv"))
+  2. ├─readr::write_csv(., here("freq", "concatonated.csv"))
+  3. │ └─readr::write_delim(...)
+  4. │   ├─base::stopifnot(is.data.frame(x))
+  5. │   └─base::is.data.frame(x)
+  6. ├─dplyr::summarise(., count = n())
+  7. ├─dplyr::group_by(., word)
+  8. └─dplyr:::group_by.data.frame(., word)
+  9.   └─dplyr::group_by_prepare(.data, ..., .add = .add, caller_env = caller_env())
+ 10.     └─rlang::abort(bullets, call = error_call)
+Execution halted
