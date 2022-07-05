@@ -60,3 +60,6 @@ write.table(dict,
 system(paste(shQuote("notepad"), filename, sep = " "),
   wait = FALSE, invisible = FALSE
 )
+
+
+
