@@ -10,7 +10,7 @@ suppressPackageStartupMessages({
 # style_file("_initial_draft.R")
 
 # Data load --------------------------------------------------------------------
-data <- read_csv("words_from_apple_notes.csv", show_col_types = F)
+data <- read_csv("unknown_words.csv", show_col_types = F)
 
 # Initial processing -----------------------------------------------------------
 process_one <- data %>%
